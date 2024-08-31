@@ -60,28 +60,64 @@
                     Ver Servicios
                 </button>
             </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img class="object-cover w-full h-80 sm:h-96 md:h-[28rem] lg:h-[32rem] xl:h-[36rem] rounded-xl" src="./src/images/banner-atila-seguridad-02.png" alt="Slide 1">
+<!-- Swiper -->
+<section class="relative py-12 bg-white dark:bg-gray-900">
+    <div class="container mx-auto px-4">
+        <header class="text-center">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Nuestros Servicios</h2>
+        </header>
+
+        <div class="swiper-container mt-8">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="relative w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                        <img src="./src/images/slide1.png" alt="Descripción del servicio 1" class="object-cover w-full h-full">
+                        <div class="absolute inset-0 flex items-center justify-center p-4 bg-black bg-opacity-50">
+                            <h3 class="text-xl font-semibold text-white">Vigilancia</h3>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="object-cover w-full h-80 sm:h-96 md:h-[28rem] lg:h-[32rem] xl:h-[36rem] rounded-xl" src="./src/images/slide2.png" alt="Slide 2">
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="relative w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                        <img src="./src/images/slide2.png" alt="Descripción del servicio 2" class="object-cover w-full h-full">
+                        <div class="absolute inset-0 flex items-center justify-center p-4 bg-black bg-opacity-50">
+                            <h3 class="text-xl font-semibold text-white">Monitoreo</h3>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="object-cover w-full h-80 sm:h-96 md:h-[28rem] lg:h-[32rem] xl:h-[36rem] rounded-xl" src="./src/images/slide3.png" alt="Slide 3">
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="relative w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                        <img src="./src/images/slide3.png" alt="Descripción del servicio 3" class="object-cover w-full h-full">
+                        <div class="absolute inset-0 flex items-center justify-center p-4 bg-black bg-opacity-50">
+                            <h3 class="text-xl font-semibold text-white">Escolta</h3>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="object-cover w-full h-80 sm:h-96 md:h-[28rem] lg:h-[32rem] xl:h-[36rem] rounded-xl" src="./src/images/slide4.png" alt="Slide 4">
+                </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="relative w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                        <img src="./src/images/slide4.png" alt="Descripción del servicio 4" class="object-cover w-full h-full">
+                        <div class="absolute inset-0 flex items-center justify-center p-4 bg-black bg-opacity-50">
+                            <h3 class="text-xl font-semibold text-white">Seguridad Perimetral</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation -->
+
+        </div>
+    </div>
+</section>
+
             
         </div>
     </section>
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-400">
         <div class="container px-6 py-10 mx-auto">
             <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Portfolio
             </h1>
@@ -92,7 +128,7 @@
             
     
     
-            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 mt-10 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
                 <div>
                     <img class="object-cover w-full rounded-lg h-96 "
                         src="./src/images/slide1.png"
@@ -124,50 +160,53 @@
     <!-- Nueva sección del blog -->
     <section class="bg-white dark:bg-gray-900">
         <div class="container px-6 py-10 mx-auto">
-            <div class="text-center">
+            <header class="text-center">
                 <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Seguridad y Protección en el Mundo Actual</h1>
-
                 <p class="max-w-lg mx-auto mt-4 text-gray-500">
                     En nuestro blog, compartimos las últimas novedades, consejos y tendencias en seguridad para mantenerte informado y protegido. Desde estrategias para mejorar la seguridad en tu hogar hasta las innovaciones tecnológicas en el sector, te ofrecemos información valiosa para ayudarte a tomar decisiones informadas. Descubre cómo nuestras soluciones pueden ofrecerte tranquilidad y protección en cada aspecto de tu vida.
                 </p>
-                              
-            </div>
-
+            </header>
+    
             <div class="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
-                <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./src/images/2qr.png" alt="">
-
+                <article class="relative z-10">
+                    <img class="object-cover w-full rounded-md h-96" src="./src/images/2qr.png" alt="Imagen sobre honestidad y calidad en nuestros servicios">
+    
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                        <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                            Honestidad y calidad en nuestros servicios
-                        </a>
-
+                        <header>
+                            <h2 class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                                <a href="#">Honestidad y calidad en nuestros servicios</a>
+                            </h2>
+                        </header>
                         <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                             Nuestro portafolio de servicios de seguridad Fija, Móvil y Escoltas, con la más alta tecnología, altos estándares de calidad y capacitación de nuestro personal, brinda control y tranquilidad a nuestros clientes, es por ello que deseamos convertirnos en su aliado.
                         </p>
-
-                        <p class="mt-3 text-sm text-blue-500">17 Abril 2023</p>
+                        <footer>
+                            <p class="mt-3 text-sm text-blue-500">17 Abril 2023</p>
+                        </footer>
                     </div>
-                </div>
-
-                <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./src/images/TIPS-SEGURIDAD.png" alt="">
-
+                </article>
+    
+                <article class="relative z-10">
+                    <img class="object-cover w-full rounded-md h-96" src="./src/images/TIPS-SEGURIDAD.png" alt="Imagen con tips de seguridad">
+    
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                        <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                            Tips de seguridad
-                        </a>
-
+                        <header>
+                            <h2 class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                                <a href="#">Tips de seguridad</a>
+                            </h2>
+                        </header>
                         <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
                             Si hay algo que puede afectar severamente un negocio son los robos y actos delictivos a los que lamentablemente se está expuesto en todo momento.
                         </p>
-
-                        <p class="mt-3 text-sm text-blue-500">20 October 2019</p>
+                        <footer>
+                            <p class="mt-3 text-sm text-blue-500">20 Octubre 2019</p>
+                        </footer>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
+    
     <footer class="bg-white dark:bg-gray-900">
         <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
             <a href="#">

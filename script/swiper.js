@@ -10,16 +10,16 @@ document.addEventListener('DOMContentLoaded', function () {
       },
       breakpoints: {
         320: {
-          spaceBetween: 120,
+          spaceBetween: 20,
       },
         640: {
-            spaceBetween: 140,
+            spaceBetween: 30,
         },
         768: {
-            spaceBetween: 160,
+            spaceBetween: 40,
         },
         1024: {
-            spaceBetween: 10,
+            spaceBetween: 50,
         },
     },
   });

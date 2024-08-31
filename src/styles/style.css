@@ -1,12 +1,14 @@
 .typing-container {
-    display: flex; /* Usa flexbox para el contenedor */
-    align-items: center; /* Centra verticalmente el texto */
-    overflow: hidden; /* Esconde el contenido que no cabe en el contenedor */
-    white-space: pre-line; /* Mantiene el texto en una sola línea */
-    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-    padding-right: 5px; /* Añade espacio extra a la derecha del texto */
-    max-width: 100%; /* Asegura que el contenedor no se desborde */
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    padding-right: 5px;
+    max-width: fit-content;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; /* fuente monospace para un efecto de escritura más auténtico */
+    border-right: 2px solid rgb(255, 255, 255); /* Añade el cursor al final del texto */
+    animation: typing 5s steps(40, end), blink-caret 0.65s step-end infinite;
 }
 
 @keyframes typing {
@@ -16,5 +18,5 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: black; }
+    50% { border-color: rgb(255, 255, 255); }
 }

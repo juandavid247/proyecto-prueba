@@ -1,0 +1,20 @@
+.typing-container {
+    display: flex; /* Usa flexbox para el contenedor */
+    align-items: center; /* Centra verticalmente el texto */
+    overflow: hidden; /* Esconde el contenido que no cabe en el contenedor */
+    white-space: pre-line; /* Mantiene el texto en una sola línea */
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+    padding-right: 5px; /* Añade espacio extra a la derecha del texto */
+    max-width: 100%; /* Asegura que el contenedor no se desborde */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
